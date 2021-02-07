@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# core dump files
+core*
+
+# VS Code site setting
+.vscode/
