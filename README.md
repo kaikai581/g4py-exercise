@@ -1,4 +1,4 @@
-# g4py-exercise
+# g4py-exercise [![Generic badge](https://img.shields.io/badge/Geant4-10.5|10.7-<COLOR>.svg)](https://shields.io/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 My exercise in Geant4 made easy with python
 
 ## Geant4Py Installation
@@ -27,7 +27,7 @@ $ make install
 ```
 Lastly, in order for your python environment to find `g4py`, include the following paths to your `PYTHONPATH`.
 ```
-$ export PYTHONPATH=../../install/lib64:../../install/lib64/examples:../../install/lib64/tests:$PYTHONPATH
+$ export PYTHONPATH=$PWD/../../install/lib64:$PWD/../../install/lib64/examples:$PWD/../../install/lib64/tests:$PYTHONPATH
 ```
 ### Install only Geant4Py without superuser privileges
 If the modules you will use are all included in `Geant4Py`, then you can install newer Geant4 releases easily.
@@ -39,7 +39,7 @@ Install Anaconda locally, and install the packages necessary to compile Geant4.
 $ conda create -n g4py
 $ conda activate g4py
 $ conda config --env --add channels conda-forge
-$ conda install --yes root boost xersec-c mesa-libgl-devel-cos6-x86_64 xorg-libxmu
+$ conda install --yes root boost xerces-c mesa-libgl-devel-cos6-x86_64 xorg-libxmu
 ```
 Starting from `Geant4.10.06`, `Geant4Py` can be easily built with the main Geant4 by invoking the cmake option `GEANT4_USE_PYTHON` when building the main application. Here are reference steps.
 ```
@@ -55,7 +55,7 @@ $ source ../install/bin/geant4.sh
 ```
 After successfully compiled, include the module path to `PYTHONPATH`.
 ```
-export PYTHONPATH=../install/lib64/python3.7/site-packages:$PYTHONPATH
+export PYTHONPATH=$PWD/../install/lib64/python3.7/site-packages:$PYTHONPATH
 ```
 Change `python3.7` to whatever version you have in your `install` path.
 
