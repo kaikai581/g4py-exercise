@@ -1,4 +1,4 @@
-# g4py-exercise [![Generic badge](https://img.shields.io/badge/Geant4-10.5|10.7-<COLOR>.svg)](https://shields.io/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+# g4py-exercise [![Generic badge](https://img.shields.io/badge/Geant4-10.5|10.7-<COLOR>.svg)](https://geant4.web.cern.ch/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 My exercise in Geant4 made easy with python
 
 ## Geant4Py Installation
